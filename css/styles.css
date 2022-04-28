@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{ font-size:3.5em;}
+h1{ font-size:2.7em;}
+h2{
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;   
+}
+
+h3{
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+p{ 
+    font-size:1.25em;
+}
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(7, 132, 242);
+}
+
+footer{
+    background-color: rgb(7, 132, 242);
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(242, 255, 0);
+    font-size: 2.45em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("lavado.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#Formulario {
+    
+}
+
+#Formulario .container {
+    background-color: rgb(131, 132, 133);
+    
+    padding: 25px 30px;
+    align-items: center;
+}
+
+.form-group {
+    
+    flex-direction: column;
+    text-align: center;
+    padding: 2px;
+    margin: center;
+}
+
+.form-control {
+    flex-direction: column;
+    text-align: center;
+    padding: auto;
+    margin: center;
+}
+
+#submit-button{
+    font-size: 1.45em;
+    align-items: center;
+    margin: center;
+    background-color:rgb(6, 168, 218);
+    
+}
+
+.column{
+    flex-direction: column;
+    text-align: center;
+    padding: auto;
+    margin: center;
+    
+}
+
+.checkbox{
+    padding: 10px;
+}
+
+#enviar{
+    font-size: 1vw;
+    flex-direction: column;
+    text-align: center;
+    padding: 12px;
+    margin: center;
+    
+}
+
+#enviarok{
+    font-size: 5vw;
+    background-color: rgb(193, 199, 8);
+}
+
+@media (min-width: 720px) {
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0; 
+    }
+
+    #enviarok{
+        font-size: 2vw;
+        background-color: rgb(121, 206, 232);
+    }
+}
+

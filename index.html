@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularioo</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">AndiWash</p>
+            <nav>
+                <a href="#">Quienes Somos</a>
+                <a href="#">Nuestros Servicios</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>RESERVA TU SERVICIO<br>DE LAVADO</h1>
+    </section>
+    
+    <section id="Formulario">
+        <div class="container">
+          <h2>Ingresa tus datos</h2>
+          <form name="fvalida">
+            <h3>Datos del Cliente</h3>
+            <div class="column">
+                 <input class="form-control" type="text" placeholder="Rut" name="rut" size="15" maxlength="8" required>
+                 <input class="form-control" type="text" placeholder="DV" name="dv" size="1" maxlength="1">
+            </div>
+            <div class="form-group">
+                <input class="form-control" name="nombre" placeholder="Nombre" type="text" maxlength="50">
+            </div>
+            <div class="form-group">
+                <input class="form-control" name="apellidos" placeholder="Apellidos" type="text" maxlength="50">
+            </div>
+
+            <div class="form-group">
+                <input class="form-control" name="direccion" placeholder="Direccion" type="text" maxlength="100">
+            </div>
+            
+            <div class="form-group">
+                 <td>Comuna</td>
+                 <select name=comuna>
+              
+                    <option value="BUIN">BUIN</option>
+                    
+                    <option value="CALERA DE TANGO">CALERA DE TANGO</option>
+                    
+                    <option value="CERRILLOS">CERRILLOS</option>
+                    
+                    <option value="CERRO NAVIA">CERRO NAVIA</option>
+                    
+                    <option value="COLINA">COLINA</option>
+                    
+                    <option value="CONCHALI">CONCHALI</option>
+                    
+                    <option value="EL BOSQUE">EL BOSQUE</option>
+                    
+                    <option value="EL MONTE">EL MONTE</option>
+                    
+                    <option value="ESTACION CENTRAL">ESTACION CENTRAL</option>
+                    
+                    <option value="HUECHURABA">HUECHURABA</option>
+                    
+                    <option value="INDEPENDENCIA">INDEPENDENCIA</option>
+                    
+                    <option value="ISLA DE MAIPO">ISLA DE MAIPO</option>
+                    
+                    <option value="LA CISTERNA">LA CISTERNA</option>
+                    
+                    <option value="LA FLORIDA">LA FLORIDA</option>
+                    
+                    <option value="LA GRANJA">LA GRANJA</option>
+                    
+                    <option value="LA PINTANA">LA PINTANA</option>
+                    
+                    <option value="LA REINA">LA REINA</option>
+                    
+                    <option value="LAMPA">LAMPA</option>
+                    
+                    <option value="LAS CONDES">LAS CONDES</option>
+                    
+                    <option value="LO BARNECHEA">LO BARNECHEA</option>
+                    
+                    <option value="LO ESPEJO">LO ESPEJO</option>
+                    
+                    <option value="LO PRADO">LO PRADO</option>
+                    
+                    <option value="MACUL">MACUL</option>
+                    
+                    <option value="MAIPU">MAIPU</option>
+                    
+                    <option value="NUNOA">NUNOA</option>
+                    
+                    <option value="PADRE HURTADO">PADRE HURTADO</option>
+                    
+                    <option value="PAINE">PAINE</option>
+                    
+                    <option value="PEDRO AGUIRRE CERDA">PEDRO AGUIRRE CERDA</option>
+                    
+                    <option value="PENAFLOR">PENAFLOR</option>
+                    
+                    <option value="PENALOLEN">PENALOLEN</option>
+                    
+                    <option value="PIRQUE">PIRQUE</option>
+                    
+                    <option value="PROVIDENCIA">PROVIDENCIA</option>
+                    
+                    <option value="PUDAHUEL">PUDAHUEL</option>
+                    
+                    <option value="PUENTE ALTO">PUENTE ALTO</option>
+                    
+                    <option value="QUILICURA">QUILICURA</option>
+                    
+                    <option value="QUINTA NORMAL">QUINTA NORMAL</option>
+                    
+                    <option value="RECOLETA">RECOLETA</option>
+                    
+                    <option value="RENCA">RENCA</option>
+                    
+                    <option value="SAN BERNARDO">SAN BERNARDO</option>
+                    
+                    <option value="SAN JOAQUIN">SAN JOAQUIN</option>
+                    
+                    <option value="SAN JOSE DE MAIPO">SAN JOSE DE MAIPO</option>
+                    
+                    <option value="SAN MIGUEL">SAN MIGUEL</option>
+                    
+                    <option value="SAN RAMON">SAN RAMON</option>
+                    
+                    <option value="SANTIAGO CENTRO" selected="selected">SANTIAGO CENTRO</option>
+                    
+                    <option value="TALAGANTE">TALAGANTE</option>
+                    
+                    <option value="TILTIL">TILTIL</option>
+                    
+                    <option value="VITACURA">VITACURA</option>
+                 </select>
+            </div>
+
+            <h3>Datos del Vehículo</h3>
+            
+            <div class="form-group">
+                <td>Vehículo:</td>
+                <td>
+                <select name=vehiculo>
+                <option value="Elegir">FURGÓN
+                <option value="Comercial">AUTOMÓVIL
+                <option value="Clientes">CAMIÓN
+                <option value="Proveedores">CAMIONETA
+                <option value="Proveedores">MOTO
+                </select>
+                </td>
+           </div>
+
+           <div class="form-group">
+            <input class="form-control" name="marca" placeholder="Marca" type="text" maxlength="50">
+           </div>
+
+           <div class="form-group">
+            <input class="form-control" name="modelo" placeholder="Modelo" type="text" maxlength="50">
+           </div>
+
+           <div class="form-group">
+            <input class="form-control" name="año" placeholder="Año" type="text" maxlength="50">
+           </div>
+
+            <div class="form-group">
+            <td>Revisión Técnica:</td>
+            <select name=revision>
+            <option value="Elegir">AL DIA
+            <option value="Comercial">NO
+            </select></td>
+            </div>
+
+            <div class="form-group">
+                <td>Tipo de lavado:</td>
+                <select name=lavado>
+                <option value="Elegir">LAVADO EXTERIOR E INTERIOR -- $8.330
+                <option value="Comercial">LAVADO DE MOTOR -- $17.850
+                </select></td>
+            </div>
+
+            <div class="form-group">
+                <td>Encargado del Servicio:</td>
+                <select name=encargado>
+                <option value="Elegir">LUIS DAVÍLA
+                <option value="Comercial">DIEGO GODOY
+                <option value="Elegir">MAYLEN CASTRO
+                <option value="Comercial">ALONSO ALARCÓN
+                </select></td>
+            </div>
+
+            <div class="form-group">
+                <td>Fecha del Servicio:</td>
+                <select name=fecha>
+                <option value="Elegir">29-04-2022
+                <option value="Comercial">30-04-2022
+                <option value="Elegir">02-05-2022
+                <option value="Comercial">03-05-2022
+                <option value="Comercial">04-05-2022
+                <option value="Comercial">05-05-2022
+                <option value="Comercial">06-05-2022
+                </select></td>
+            </div>
+
+            <div class="form-group">
+                <td>Horas disponibles:</td>
+                <select name=hora>
+                <option value="Elegir">10:00 hrs
+                <option value="Comercial">11:00 hrs
+                <option value="Elegir">12:00 hrs
+                <option value="Comercial">13:00 hrs
+                <option value="Comercial">14:00 hrs
+                <option value="Comercial">15:00 hrs
+                <option value="Comercial">16:00 hrs
+                <option value="Comercial">17:00 hrs
+                <option value="Comercial">18:00 hrs
+                <option value="Comercial">19:00 hrs
+                </select></td>
+            </div>
+
+            <div class="form-group" id="enviar">
+                 <td colspan="2"><input type="button" id="enviarok" value="Enviar" onclick="valida_envia()"></td>
+            </div>
+
+
+            </table>
+            </form>
+    </section>
+
+    <footer>
+        <div class="container">
+         <p>&copy; AndiWash</p>
+        </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-3.4.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="js/formulario.js"></script>
+    
+</body>
+</html>
+
+
+
